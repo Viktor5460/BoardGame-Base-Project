@@ -1,6 +1,6 @@
 @echo off
 echo ===================================================
-echo Компиляция иерархии классов BoardGame...
+echo Компиляция...
 echo ===================================================
 
 g++ -O2 -std=c++11 main.cpp BoardGame.cpp Player.cpp Match.cpp RatingFilter.cpp FeatureFilter.cpp SimilarGamesFilter.cpp GameDatabase.cpp -o board_game_test.exe
@@ -21,3 +21,4 @@ if %errorlevel% equ 0 (
 )
 
 pause
+
