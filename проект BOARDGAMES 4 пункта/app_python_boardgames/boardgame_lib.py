@@ -5,7 +5,6 @@ from pathlib import Path
 
 #
 # Высокоуровневая Python-обёртка над board_game_lib.dll.
-# Старается скрыть детали ctypes и работать с нормальными классами.
 #
 
 ROOT_DIR = Path(__file__).resolve().parent
@@ -526,5 +525,6 @@ class GameDatabase:
 
 
 __all__ = ["BoardGame", "GameDatabase", "Match", "DLL_PATH"]
+
 
 
